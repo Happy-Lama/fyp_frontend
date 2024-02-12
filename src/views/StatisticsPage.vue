@@ -284,7 +284,7 @@ onMounted(() => {
             // get_latest_transformer_data('http://localhost:8000/data/transformers/latest/', appStore)
             // get_average_values('http://localhost:8000/data/transformers/average_values/', appStore)
             get_latest_transformer_data('https://fyp-backend-ot0p.onrender.com/data/transformers/latest/', appStore)
-        get_average_values('https://fyp-backend-ot0p.onrender.com/data/transformers/average_values/', appStore)
+            get_average_values('https://fyp-backend-ot0p.onrender.com/data/transformers/average_values/', appStore)
         }, 300000)
     } else {
         updateValues(appStore.average_values)
@@ -292,7 +292,7 @@ onMounted(() => {
             // get_latest_transformer_data('http://localhost:8000/data/transformers/latest/', appStore)
             // get_average_values('http://localhost:8000/data/transformers/average_values/', appStore)
             get_latest_transformer_data('https://fyp-backend-ot0p.onrender.com/data/transformers/latest/', appStore)
-        get_average_values('https://fyp-backend-ot0p.onrender.com/data/transformers/average_values/', appStore)
+            get_average_values('https://fyp-backend-ot0p.onrender.com/data/transformers/average_values/', appStore)
         }, 300000)
     }
 })
